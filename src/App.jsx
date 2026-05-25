@@ -1,11 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+
+import AuthForm from './component/AuthForm';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return(
-    <div></div>
+    <div>
+      <AuthForm />
+    </div>
 
   );
 }
